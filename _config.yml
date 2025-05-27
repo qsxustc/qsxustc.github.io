@@ -23,13 +23,13 @@ repository               : "qsxustc/qsxustc.github.io"
 author:
   # Biographic information
   avatar           : "profile.png"
-  name             : "Your Sidebar Name"
+  name             : "Jack"
   pronouns         : "he/his"  
   bio              : "A graduate student majoring in computer science"
   location         : "Hefei, China"
   employer         : "Universit of Science,technology of China"
   uri              : # URL
-  email            : "qsxjack@qq.com" 
+  email            : "xxx@163.com" 
 
   # Academic websites
   academia         : # URL
