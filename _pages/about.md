@@ -1,37 +1,44 @@
 ---
 permalink: /
-title: "Academic Pages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: "Hi，this is Jack"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-This is the front page of a website that is powered by the [Academic Pages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the repository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this template](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads!
+I am Songxin Qu (Jack), a dedicated AI Engineer and Software Developer specializing in large language models (LLMs) and their real-world applications. With a strong foundation in software engineering and ongoing graduate studies at the University of Science and Technology of China, I focus on advancing LLM research, fine-tuning, and scalable deployment. My work bridges cutting-edge AI advancements with robust full-stack development, leveraging frameworks like PyTorch, Hugging Face Transformers, and distributed training tools to deliver high-impact solutions.
 
-A data-driven personal website
+
+
+Technical Expertise
 ======
-Like many other Jekyll-based GitHub Pages templates, Academic Pages makes you separate the website's content from its form. The content & metadata of your website are in structured markdown files, while various other files constitute the theme, specifying how to transform that content & metadata into HTML pages. You keep these various markdown (.md), YAML (.yml), HTML, and CSS files in a public GitHub repository. Each time you commit and push an update to the repository, the [GitHub pages](https://pages.github.com/) service creates static HTML pages based on these files, which are hosted on GitHub's servers free of charge.
+My core strengths lie in LLM fine-tuning, model optimization, and end-to-end AI system design. I excel in adapting foundational models (e.g., GPT, LLaMA) for domain-specific tasks through parameter-efficient techniques like LoRA and QLoRA, achieving performance improvements while minimizing computational costs. My experience spans:
+1. Custom LLM Development: Fine-tuning models for specialized NLP tasks using frameworks like DeepSpeed and PyTorch Lightning, with a focus on low-rank adaptation and quantization.
 
-Many of the features of dynamic content management systems (like Wordpress) can be achieved in this fashion, using a fraction of the computational resources and with far less vulnerability to hacking and DDoSing. You can also modify the theme to your heart's content without touching the content of your site. If you get to a point where you've broken something in Jekyll/HTML/CSS beyond repair, your markdown files describing your talks, publications, etc. are safe. You can rollback the changes or even delete the repository and start over - just be sure to save the markdown files! Finally, you can also write scripts that process the structured data on the site, such as [this one](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb) that analyzes metadata in pages about talks to display [a map of every location you've given a talk](https://academicpages.github.io/talkmap.html).
+2. Distributed Training: Optimizing training pipelines for multi-GPU/TPU environments, leveraging Megatron-LM and NVIDIA NeMo for efficient large-scale parallelism.
 
-Getting started
+3. Deployment & Scalability: Containerizing LLM inference services with Docker, designing RESTful APIs for seamless integration, and deploying latency-sensitive applications using vLLM or TensorRT-LLM.
+
+4. Evaluation & Alignment: Implementing rigorous evaluation metrics (BLEU, ROUGE) and alignment strategies (RLHF, DPO) to ensure model robustness and ethical compliance.
+
+Career Vision
 ======
-1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
-1. Fork [this template](https://github.com/academicpages/academicpages.github.io) by clicking the "Use this template" button in the top right. 
-1. Go to the repository's settings (rightmost item in the tabs that start with "Code", should be below "Unwatch"). Rename the repository "[your GitHub username].github.io", which will also be your website's URL.
-1. Set site-wide configuration and create content & metadata (see below -- also see [this set of diffs](http://archive.is/3TPas) showing what files were changed to set up [an example site](https://getorg-testacct.github.io) for a user with the username "getorg-testacct")
-1. Upload any files (like PDFs, .zip files, etc.) to the files/ directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.  
-1. Check status by going to the repository settings, in the "GitHub pages" section
+I am driven to push the boundaries of generative AI by solving complex challenges in model efficiency, multi-modal integration, and real-time inference. Whether refining billion-parameter models for industry-specific use cases or architecting MLOps pipelines for continuous learning, I aim to deliver solutions that balance technical rigor with practical usability. My goal is to contribute to open-source LLM ecosystems while advancing enterprise-grade AI applications in fields like healthcare, finance, and autonomous systems.
 
-Site-wide configuration
+Featured Projects
 ------
-The main configuration file for the site is in the base directory in [_config.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_config.yml), which defines the content in the sidebars and other site-wide features. You will need to replace the default variables with ones about yourself and your site's github repository. The configuration file for the top menu is in [_data/navigation.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_data/navigation.yml). For example, if you don't have a portfolio or blog posts, you can remove those items from that navigation.yml file to remove them from the header. 
+1. Domain-Specific LLM Fine-tuning: Adapted LLaMA-2 for a legal document analysis system, reducing hallucination rates by 18% through curated datasets and RLHF.
 
-Create content & metadata
+2. Efficient Training Pipelines: Built a distributed fine-tuning framework using Hugging Face Accelerate, achieving 2.3x faster convergence on proprietary datasets.
+
+3. Edge LLM Deployment: Optimized a Mistral-7B variant for real-time inference on NVIDIA Jetson platforms, achieving 45ms/token latency via TensorRT-LLM.
+  
+
+Let’s Connect
 ------
-For site content, there is one markdown file for each type of content, which are stored in directories like _publications, _talks, _posts, _teaching, or _pages. For example, each talk is a markdown file in the [_talks directory](https://github.com/academicpages/academicpages.github.io/tree/master/_talks). At the top of each markdown file is structured data in YAML about the talk, which the theme will parse to do lots of cool stuff. The same structured data about a talk is used to generate the list of talks on the [Talks page](https://academicpages.github.io/talks), each [individual page](https://academicpages.github.io/talks/2012-03-01-talk-1) for specific talks, the talks section for the [CV page](https://academicpages.github.io/cv), and the [map of places you've given a talk](https://academicpages.github.io/talkmap.html) (if you run this [python file](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.py) or [Jupyter notebook](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb), which creates the HTML for the map based on the contents of the _talks directory).
-
+For collaborations or discussions on LLMs, AI infrastructure, or full-stack AI systems, reach me at QSXJACK@QQ.COM or explore my work at QSXJACK.INFO. Dive deeper into my projects on [GitHub]([https://qsxustc.](https://github.com/qsxustc)).
+<!-- 
 **Markdown generator**
 
 The repository includes [a set of Jupyter notebooks](https://github.com/academicpages/academicpages.github.io/tree/master/markdown_generator
@@ -46,4 +53,4 @@ Example: editing a markdown file for a talk
 
 For more info
 ------
-More info about configuring Academic Pages can be found in [the guide](https://academicpages.github.io/markdown/), the [growing wiki](https://github.com/academicpages/academicpages.github.io/wiki), and you can always [ask a question on GitHub](https://github.com/academicpages/academicpages.github.io/discussions). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful.
+More info about configuring Academic Pages can be found in [the guide](https://academicpages.github.io/markdown/), the [growing wiki](https://github.com/academicpages/academicpages.github.io/wiki), and you can always [ask a question on GitHub](https://github.com/academicpages/academicpages.github.io/discussions). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful. -->
