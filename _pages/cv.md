@@ -49,7 +49,7 @@ Honors and Awards
 * First Prize in the 3D simulation group of the 2022 China Robot Competition and ROBOCUP Robot World Cup China Tournament
 * National Third Prize in the 2023 Computer Design Competition
 * University-level completion of the 2021 College Student Innovation and Entrepreneurship Challenge
-* Second and Third-class Student Scholarships and National励志 (Encouragement) Scholarship in 2020 and 2021
+* Second and Third-class Student Scholarships and National Encouragement Scholarship in 2020 and 2021
 * Rated as a 'Triple-A' Student at Zhengzhou University in 2022
 
 Service and Leadership
