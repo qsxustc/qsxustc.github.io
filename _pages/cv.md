@@ -39,6 +39,8 @@ Project Experience
 
 Skills
 ======
+* LLM Finetune
+* LLM deployment
 * Javaweb Development
 * Linux System Operation
 * Deep Learning
