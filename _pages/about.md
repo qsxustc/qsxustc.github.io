@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I am Songxin Qu (Jack), a dedicated AI Engineer and Software Developer specializing in large language models (LLMs) and their real-world applications. With a strong foundation in software engineering and ongoing graduate studies at the University of Science and Technology of China, I focus on advancing LLM research, fine-tuning, and scalable deployment. My work bridges cutting-edge AI advancements with robust full-stack development, leveraging frameworks like PyTorch, Hugging Face Transformers, and distributed training tools to deliver high-impact solutions.
+I am Songxin Qu (Jack), a dedicated AI Engineer and Software Developer specializing in large language models (LLMs). With a strong foundation in software engineering and ongoing graduate studies at the University of Science and Technology of China, I focus on advancing LLM research, fine-tuning, and scalable deployment. My work bridges cutting-edge AI advancements with robust full-stack development, leveraging frameworks like PyTorch, Hugging Face Transformers, and distributed training tools to deliver high-impact solutions.
 
 Technical Expertise
 ======
